@@ -1,0 +1,9 @@
+wheel
+yt-dlp
+mutagen
+Pillow  # For image processing in metadata_processor
+requests
+openai
+anthropic 
+google-generativeai
+python-dotenv

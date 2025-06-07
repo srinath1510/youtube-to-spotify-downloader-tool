@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+.vscode/
+
+# Editor/OS Files
+.DS_Store
+.ipynb_checkpoints
+Thumbs.db
+
+# Downloaded Audio Files (can get large)
+# Since the purpose is to place them in a user-defined directory,
+# we generally don't want to commit these.
+# If you want to keep them *within* the repo's structure for testing,
+# you'd need to comment this out or be more specific.
+*.mp3
+*.m4a
+*.wav
+*.flac
+*.ogg
+
+# LLM API Keys (sensitive information)
+# Ensure these are NEVER committed to version control.
+# They should be managed via environment variables.
+.env
+.api_keys
+api_keys.py
